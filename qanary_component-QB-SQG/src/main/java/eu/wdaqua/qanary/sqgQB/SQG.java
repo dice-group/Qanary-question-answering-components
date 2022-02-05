@@ -41,7 +41,7 @@ import eu.wdaqua.qanary.exceptions.SparqlQueryFailed;
 public class SQG extends QanaryComponent {
 
 	private static final Logger logger = LoggerFactory.getLogger(SQG.class);
-	private final String SQGendpoint = "http://porque.cs.upb.de:5055/qg/api/v1.0/query";
+	private final String SQGendpoint = "http://172.18.0.1:5055/qg/api/v1.0/query";
 
 	public SQG() throws IOException, InterruptedException {
 
